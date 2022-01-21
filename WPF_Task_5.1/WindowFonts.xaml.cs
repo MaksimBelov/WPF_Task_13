@@ -31,13 +31,11 @@ namespace WPF_Task_5._1
 
             if (ListBoxFont.SelectedItem != null)
             {
-                main.textbox.FontFamily = new FontFamily(ListBoxFont.SelectedItem.ToString());
                 main.ComboBoxFontStyles.SelectedItem = ListBoxFont.SelectedItem;
             }
 
             if (ListBoxFontSize.SelectedItem != null)
             {
-                main.textbox.FontSize = Convert.ToInt32(ListBoxFontSize.SelectedItem);
                 main.ComboBoxFontSizes.SelectedItem = ListBoxFontSize.SelectedItem;
             }
 
